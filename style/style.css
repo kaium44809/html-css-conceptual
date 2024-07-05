@@ -1,3 +1,24 @@
-h2{
-    color :red
+*{     /* universal selector(*) */
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+    font-style:italic;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    text-align: center;
+}
+
+#heading-parent{  /* (#)-ID seleector */
+    background-color: coral;
+    height          : 600px;
+    padding         : 300px 0px; /* here 300px(up and down) and 0px(left and right)*/
+    width           : 1100px;
+    margin-top      : 40px;
+    margin-bottom   : 10px;
+    /* to bring to the middle we need to use margin-left and margin-right :auto */
+    margin-left     : auto;
+    margin-right    : auto;
 }
