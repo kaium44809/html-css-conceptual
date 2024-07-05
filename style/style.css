@@ -42,5 +42,9 @@ h1{
     border-color     : aqua;
     border-radius    : 6px;
     font-family      : "Dancing Script", cursive;
-
+    transition       : all 1s;
+    cursor           : pointer;
+}
+.button:hover{
+    background-color: green;
 }
